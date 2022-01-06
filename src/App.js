@@ -12,10 +12,10 @@ import sebastianImg from './assets/images/Sebastian.png';
 function App() {
 
   const BIRTHDAYS=[
-    {image:antonellaImg,name:"Antonella", years:22},
-    {image:jackImg,name:"Jack", years:25 },
-    {image:lilyImg,name:"Lily", years:28},
-    {image:sebastianImg,name:"Sebastian", years:26}
+    {image:antonellaImg,name:"Antonella Rossi", years:22},
+    {image:jackImg,name:"Jack Querales", years:25 },
+    {image:lilyImg,name:"Lily Rivas", years:28},
+    {image:sebastianImg,name:"Sebastian Marchiori", years:26}
   ]
   
   const [list,setList] = useState(BIRTHDAYS);
@@ -43,7 +43,10 @@ function App() {
 
     {list.length ===0 && <p>Empty list.There are not birthdays.</p>}
 
-    <button onClick={deleteList}>Clean All</button>
+    <div className='birthdayList-button'>
+    <button onClick={deleteList} >Clean All</button>
+    </div>
+
 
     </section>
 

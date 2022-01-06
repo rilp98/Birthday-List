@@ -1,22 +1,48 @@
 .page {
- display: flex;
- align-items: center;
- justify-content: center;
- flex-direction: column;
- background-color: #ffb3c6;
- height: 100vh;
+  background-color: #ffb3c6;
+  color: #011f2e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .birthdayList-container {
-  width: 300px;
+  background-color: #f3f3f3;
+  border-radius: 6px;
+  width: 400px;
   height: 500px;
-  background-color: #943464;
 }
 
 .birthdayList-title {
+  margin-top:20px;
   text-align: center;
 }
 
 .birthdayList-list {
   list-style: none;
+  margin-left: 10px;
 }
+
+.birthdayList-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 250px;
+  height: 36px;
+  background-color: #011f2e;
+  color: #f3f3f3;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #041720;
+}
+
+

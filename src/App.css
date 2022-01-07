@@ -8,24 +8,24 @@
   height: 100vh;
 }
 
-.birthdayList-container {
+.birthdayList_container {
   background-color: #f3f3f3;
   border-radius: 6px;
   width: 400px;
   height: 500px;
 }
 
-.birthdayList-title {
+.birthdayList_title {
   margin-top:20px;
   text-align: center;
 }
 
-.birthdayList-list {
+.birthdayList_list {
   list-style: none;
   margin-left: 10px;
 }
 
-.birthdayList-button {
+.birthdayList_button {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -45,4 +45,6 @@ button:hover {
   background-color: #041720;
 }
 
-
+.birthdayList_empty {
+  margin:20px 0 20px 80px;
+}

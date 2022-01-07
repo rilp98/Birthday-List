@@ -27,11 +27,11 @@ function App() {
   return (
     <div className='page'>
 
-    <section className='birthdayList-container'>
+    <section className='birthdayList_container'>
 
-    <h1 className='birthdayList-title'>{list.length} birthdays today</h1>
+    <h1 className='birthdayList_title'>{list.length} birthdays today</h1>
     
-    <ol className='birthdayList-list'>
+    <ol className='birthdayList_list'>
 
       {list.map((item)=>{
 
@@ -41,9 +41,9 @@ function App() {
 
     </ol>
 
-    {list.length ===0 && <p>Empty list.There are not birthdays.</p>}
+    {list.length ===0 && <p className='birthdayList_empty' >Empty list.There are not birthdays.</p>}
 
-    <div className='birthdayList-button'>
+    <div className='birthdayList_button'>
     <button onClick={deleteList} >Clean All</button>
     </div>
 
